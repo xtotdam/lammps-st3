@@ -20,6 +20,8 @@ _More snippets can easily be added by copying one of the .sublime-snippet files 
 
 ## Source
 
+This repository is based off of [BYU-BMR/lammps-st3](https://github.com/BYU-BMR/lammps-st3)
+
 This repository is based off of [ipcamit/lammps-st3](https://github.com/ipcamit/lammps-st3)
 
 In [ipcamit/lammps-st3](https://github.com/ipcamit/lammps-st3) they use the old .tmLanguage file format.  This repository uses the new .sublime-syntax file format.
