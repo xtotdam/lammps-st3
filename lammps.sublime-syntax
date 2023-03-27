@@ -16,7 +16,7 @@ contexts:
 
   - comment: style keyword
     scope: keyword.operator.lammps
-    match: \b(all|atomz_modify|atom_style|boundary|dimension|newton|processors|units|create_atoms|create_box|lattice|region|replicate|angle_coeff|angle_style|bond_coeff|bond_style|dielectric|dihedral_coeff|dihedral_style|improper_coeff|improper_style|kspace_modify|kspace_style|pair_coeff|pair_modify|pair_style|pair_write|special_bonds|comm_style|group|mass|min_modify|min_style|neigh_modify|neighbor|reset_timestep|run_style|set|timestep|velocity|fix_modify|compute|compute_modify|uncompute|thermo|thermo_modify|thermo_style|write_data|delete_atoms|delete_bonds|displace_atoms|change_box|minimize|rerun|run|temper|clear|echo|if|include|jump|label|log|next|print|shell|variable)\b
+    match: \b(all|atomz_modify|atom_style|boundary|dimension|newton|processors|units|create_atoms|create_box|lattice|region|replicate|angle_coeff|angle_style|bond_coeff|bond_style|dielectric|dihedral_coeff|dihedral_style|improper_coeff|improper_style|kspace_modify|kspace_style|pair_coeff|pair_modify|pair_style|pair_write|special_bonds|comm_style|group|mass|min_modify|min_style|neigh_modify|neighbor|reset_timestep|run_style|set|timestep|velocity|fix_modify|compute|compute_modify|uncompute|thermo|thermo_modify|thermo_style|write_data|delete_atoms|delete_bonds|displace_atoms|change_box|minimize|rerun|run|temper|clear|echo|if|include|jump|label|log|next|print|shell|variable|labelmap)\b
 
   - comment: read data
     scope: markup.bold.lammps

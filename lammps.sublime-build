@@ -1,0 +1,4 @@
+{
+    "cmd": ["lmp", "-in", "$file"],
+    "file_patterns": ["*.lmp", "*.in"]
+}
