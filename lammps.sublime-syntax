@@ -23,10 +23,10 @@ contexts:
     match: \$
 
   - scope: string.quoted.single
-    match: \'(.+)\'
+    match: \'(.+?)\'
 
   - scope: string.quoted.double
-    match: \"(.+)\"
+    match: \"(.+?)\"
 
 
 
@@ -38,7 +38,7 @@ contexts:
 
   - comment: General commands (Manual 5.5 28Mar2023)
     scope: keyword.operator.lammps
-    match: \b(angle_coeff|angle_style|angle_write|atom_modify|atom_style|balance|bond_coeff|bond_style|bond_write|boundary|change_box|clear|comm_modify|comm_style|compute|compute_modify|create_atoms|create_bonds|create_box|delete_atoms|delete_bonds|dielectric|dihedral_coeff|dihedral_style|dihedral_write|dimension|displace_atoms|echo|group|if|improper_coeff|improper_style|include|info|jump|kspace_modify|kspace_style|label|labelmap|lattice|log|mass|minimize|min_modify|min_style|molecule|neigh_modify|neighbor|newton|next|package|pair_coeff|pair_modify|pair_style|pair_write|partition|print|processors|quit|region|replicate|rerun|reset_atoms|reset_timestep|run|run_style|set|shell|special_bonds|suffix|thermo|thermo_modify|thermo_style|timer|timestep|uncompute|units|variable|velocity|write_coeff|dynamical_matrix|group2ndx|hyper|kim|fitpod|mdi|ndx2group|neb|neb/spin|plugin|prd|python|tad|temper|temper/grem|temper/npt|third_order)\b
+    match: \b(angle_coeff|angle_style|angle_write|atom_modify|atom_style|balance|bond_coeff|bond_style|bond_write|boundary|change_box|clear|comm_modify|comm_style|compute|compute_modify|create_atoms|create_bonds|create_box|delete_atoms|delete_bonds|dielectric|dihedral_coeff|dihedral_style|dihedral_write|dimension|displace_atoms|echo|group|if|then|elif|else|improper_coeff|improper_style|include|info|jump|kspace_modify|kspace_style|label|labelmap|lattice|log|mass|minimize|min_modify|min_style|molecule|neigh_modify|neighbor|newton|next|package|pair_coeff|pair_modify|pair_style|pair_write|partition|print|processors|quit|region|replicate|rerun|reset_atoms|reset_timestep|run|run_style|set|shell|special_bonds|suffix|thermo|thermo_modify|thermo_style|timer|timestep|uncompute|units|variable|velocity|write_coeff|dynamical_matrix|group2ndx|hyper|kim|fitpod|mdi|ndx2group|neb|neb/spin|plugin|prd|python|tad|temper|temper/grem|temper/npt|third_order)\b
 
 
   - comment: read data
